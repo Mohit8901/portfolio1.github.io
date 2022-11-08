@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.main .logo{
+    display: flex;
+    padding-top: 46px;
+    padding-left: 8%;
+    padding-bottom: 10px;
+    list-style-type: none;
+ 
+
+   
+    
+}
+.logo .logoa{
+   
+   
+   text-decoration: none;
+}
+.nav{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.main nav ul {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+list-style: none;
+padding-top: -3px;
+padding-left: 179px;
+font-size: 20px
+
+
+    
+}
+.main nav ul li {
+ 
+
+list-style-type: none;
+display: inline-block;
+padding-left: 70px;
+
+}
+
+.main nav ul li a {
+    list-style-type: none; 
+}
+.main nav ul li:hover{
+    transform: scale(1.2);
+
+color: red;
+}
+
+
+.btn-lg{
+   
+    background-color: red;
+    border-radius: 71px;
+    padding: 13px 32px;
+    margin-top: -17px;
+    margin-left: 70px  ;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.btn-lg:hover{
+	transform: scale(1.2);
+background-color: white;
+color: red;
+border-color: #f9004d;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    padding: 10px 0px 10px;
+}
+span{
+    color: #f9004d;
+}
+
+h3{
+    font-weight: bold;
+    color: white;
+}
+
+ #mail{
+    border-radius: 40px;
+    margin-top: 20px;
+    height: 72px;
+    padding-right: 267px;
+
+    
+
+   
+}
+
+.newslatter form input{
+  padding-left: 20px;
+  border-color:  #f9004d ;
+  font-size: 20px;
+
+}
+ 
+.newslatter form #submit {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 16px 47px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    margin-top: 29px;
+    margin-left: -189px;
+    cursor: pointer;
+}
+
+
+.newslatter form #submit:hover{
+	transform: scale(0.92);
+background-color: white;
+color: red;
+}
+
+/* about me section css */
+
+.aboutme{
+  display: flex;
+  width: 100%;
+  background-color: #000;
+  padding: 100px 0px;
+ 
+}
+
+.aboutme img{
+    height: auto;
+    width: 520px;
+    margin-left: 8%;
+}
+.aboutme .details{
+    width: 45%;
+    padding-left: 74px;
+    padding-top: 124px;
+}
+
+.details h1{
+    color: white;
+	font-size: 90px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.details p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    padding: 18px 0px;
+    font-size: 20px;
+}
+
+.lettalks{
+    margin-left: -8px;
+    margin-top: 20px;
+  
+}
+
+/* our service section CSS */
+.services{
+    background-color: #000;
+}
+.servicesection{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+ 
+}
+
+
+.services h1{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.development{
+    height: 420px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 37px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+.development .fas{
+   font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+
+.development .fas h3{
+    color: white;
+	font-size: 90px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+
+}
+
+.development p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    padding: 18px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.development .btn-service{
+    margin: 10px;
+}
+
+/* section for hire me */
+.containerforwebsite{
+    background: #191919;
+    height: 290px;
+    width: 100%;
+    text-align: center;
+}
+
+.containerforwebsite h3{
+    color: white;
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.containerforwebsite .btn-lg{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+/* footer section css */
+.fottter{
+    background-color: #000;
+    text-align: center;
+    padding: 30px;
+}
+
+.fottter h1{
+    padding-bottom: 20px;
+}
+
+.fottter p{
+    padding: 5px;
+    color: white;
+
+	text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.socialicone a .fab{
+    padding: 40px 10px;
+    transform: scale(1.2);
+    font-size: 25px;
+color: red;
+
+}
+
+#footerh3{
+    font-size: 10px;
+}
+
+.copyright{
+    font-size: 15px;
+   
+}
+
